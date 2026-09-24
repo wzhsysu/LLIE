@@ -1,3 +1,5 @@
+
+
 # SynLLIE
 This is a repository of two papers
 
@@ -46,10 +48,10 @@ Tip: We use the method provided in IQA-PyTorch to calculate the metrics. [IQA-Py
 # activate the environment
 conda activate synllie
 
-# run (The path of the test set is modified in the configuration file.)
+# run (Set dataroot_lq and dataroot_gt under datasets.val in the configuration file.)
 # test on LOL_v1
 python3 Enhancement/test_from_dataset.py --opt Options/NewAttentionUNet2_test.yml --weights pretrained_models/AttentionUNet_LOL_v1.pth
 # test on LOL_v2_real
 python3 Enhancement/test_from_dataset.py --opt Options/NewAttentionUNet2_test.yml --weights pretrained_models/AttentionUNet_LOL_v2.pth
 # test on other dataset
-python3 Enhancement/test_from_dataset.py --opt Options/NewAttentionUNet2_test.yml --weights pretrained_models/AttentionUNet_baseline.pth 
+python3 Enhancement/test_from_dataset.py --opt Options/NewAttentionUNet2_test.yml --weights pretrained_models/AttentionUNet_baseline.pth
