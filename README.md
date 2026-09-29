@@ -5,6 +5,8 @@ Paper1: Enhancing Low-Light Images: A Synthetic Data Perspective on Practical an
 
 Paper2: Towards Realistic Low-Light Image Enhancement via ISP-Driven Data Modeling [link](https://arxiv.org/abs/2504.12204)
 
+**Note:** The synthesis method is based on a prior work [link](https://github.com/timothybrooks/unprocessing).
+
 ## 1. Create Environment
 
 
